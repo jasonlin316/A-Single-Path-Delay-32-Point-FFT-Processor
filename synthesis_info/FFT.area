@@ -1,0 +1,33 @@
+ 
+****************************************
+Report : area
+Design : FFT
+Version: N-2017.09-SP2
+Date   : Sun Apr  7 12:57:56 2019
+****************************************
+
+Information: Changed minimum wire load model for 'FFT' from 'G5K' to 'enG100K'. (OPT-171)
+Information: Updating design information... (UID-85)
+Warning: Design 'FFT' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /home/raid7_1/userd/d04027/faraday_U18/CBDK/Synthesis/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                          159
+Number of nets:                         19583
+Number of cells:                        18466
+Number of combinational cells:          16098
+Number of sequential cells:              2367
+Number of macros/black boxes:               0
+Number of buf/inv:                       3543
+Number of references:                     120
+
+Combinational area:             344874.801760
+Buf/Inv area:                    27766.972643
+Noncombinational area:          141822.173359
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                486696.975119
+Total area:                 undefined
+1
