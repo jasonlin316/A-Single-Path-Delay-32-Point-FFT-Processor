@@ -1,7 +1,7 @@
 # A-Single-Path-Delay-32-Point-FFT-Processor
 This is a 32-point pipelined Fast Fourier Transform processor, using single path delay architecture.  
-The design is based on radix2-DIF(decimation-in-frequency) algorithm. The average SNR = 58.76. 
-There are also gate level files (FFT_SYN.v, FFT_SYN.sdf) and python simulation.
+The design is based on radix2-DIF(decimation-in-frequency) algorithm. The average SNR = 58.76.  
+There are also gate level files (FFT_SYN.v, FFT_SYN.sdf), and python simulation for debugging.
 
 ## Usage
 To run the FFT processor, execute run.f in the src folder.  
