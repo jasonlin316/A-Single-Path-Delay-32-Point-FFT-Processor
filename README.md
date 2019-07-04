@@ -25,6 +25,9 @@ The ROM is where the twiddle factors are stored. When it receives the valid sign
 **SORT MODULE**  
 Since we know the output signal order, we can simply control the order by directing the signal to a 2D array and place the value in the right place. For instance, the 2nd output is X[15], we can store it into result[15]. It will take 32 cycles to sort. To add on, the input of sort module is the most significant 16 bits of the output of the last radix-2 butterfly.
 
+## Schematic
+![Desgin](https://github.com/jasonlin316/A-Single-Path-Delay-32-Point-FFT-Processor/blob/master/pic/FFT.png)
+
 ## Design Specification
 |   Spec   | Value    |
 |-----------|---|
